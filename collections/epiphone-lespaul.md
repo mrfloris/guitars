@@ -5,3 +5,13 @@ I have had an Epiphones as my third guitar I think, a Les Paul. I got it from th
 ## Epiphone Les Paul (standard)
 
 I've played on this so so so much, it showed me what 'being in your own little world' means. 
+
+## Overview
+
+## Specifications
+
+## Story / History
+
+## Photos
+
+## Notes
