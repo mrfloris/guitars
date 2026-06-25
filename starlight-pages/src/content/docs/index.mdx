@@ -1,0 +1,40 @@
+---
+title: Guitars And Gear
+description: Floris guitar collection, gear archive, pedalboard plans, songs, and stories.
+template: splash
+hero:
+  tagline: A public archive for guitars, amps, pedalboard plans, accessories, songs, and the stories behind the gear.
+  actions:
+    - text: Guitar Inventory
+      link: /guitars/
+      icon: right-arrow
+    - text: Amps
+      link: /gear/amps/
+      icon: seti:audio
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Start Here
+
+<CardGrid stagger>
+	<Card title="Guitars" icon="seti:audio">
+		The owned, borrowed, former, and wanted guitars, with individual story pages as they grow.
+	</Card>
+	<Card title="Amps" icon="seti:config">
+		Marshall and Fender amp notes, maintenance needs, and fact checks.
+	</Card>
+	<Card title="Pedalboards" icon="seti:folder">
+		A fresh build project for pedals, board hardware, links, research, and experiments.
+	</Card>
+	<Card title="Songs" icon="seti:markdown">
+		A future list of songs, tabs, video lessons, tunings, capo notes, and practice status.
+	</Card>
+	<Card title="Wishlist" icon="seti:favicon">
+		Gear to research before buying, including the Furch guitar and future pedalboard parts.
+	</Card>
+	<Card title="Blog" icon="seti:astro">
+		Future stories, build logs, guitar history, left-handed playing notes, and repair adventures.
+	</Card>
+</CardGrid>

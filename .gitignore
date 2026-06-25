@@ -1,2 +1,12 @@
 # Specify filepatterns you want git to ignore.
 .DS_Store
+
+# Local-only source material, private notes, emails, downloads, bookmarks, and todos.
+resources/
+
+# Starlight local build artifacts and dependencies.
+starlight-pages/node_modules/
+starlight-pages/dist/
+starlight-pages/.astro/
+starlight-pages/.env
+starlight-pages/.env.*

@@ -1,46 +1,40 @@
-# 🎸 Guitars
+# Guitars And Gear
 
-Welcome to my guitar collection repo! My name is Floris, and this is where I document my passion for guitars. And Especially the unique journey of my Gibson Custom Shop ES-335. This project is both a personal archive and a space to explore specs, terminology, and stories. If you’re a fellow lefty, collector, or just curious, feel free to look around or say hi on my discord.gg/floris in #art-hobbies
+Welcome to Floris' guitar and gear archive. This is a personal collection project for guitar stories, specs, history, photos, amps, pedalboard plans, accessories, songs, wishlist notes, and eventually blog posts.
 
----
+Guitars are more than wood and strings: they have stories, and they are personal. This repo preserves the details and history of the instruments I own, used to own, borrowed, built, repaired, or still want to find someday. It is also a place to nerd out about specs, terminology, and left-handed guitar life.
 
-## 🎼 Why This Repo?
+## Start Here
 
-Guitars are more than just wood and strings: they have stories, they are very personal. I wanted a place to preserve the details and history of the instruments I own (and maybe a few more in the future, who knows). It’s also a fun excuse to nerd out about specs and connect with others who care about this stuff.
-
---- 
-
-## 📚 Collection
-I have a few guitars, I mean it, I promise I won't buy more. Maybe one more. And no, I haven't collected guitars in the last 30+ years. But, I might start now.
-
-### ⭐ Featured Project
-- [Gibson Custom Shop ES-335 (2024 Lefty, Cinnamon Burst)](collections/gibson-es335.md)  
-  _This is my main focus—expect frequent updates, specs, and photos!_
-
-  ### 🎸 The Rest of the Collection
+- [Guitar inventory](collections/guitars.md)
+- [Gibson Custom Shop ES-335](collections/gibson-es335.md)
 - [Epiphone Les Paul](collections/epiphone-lespaul.md)
-- [Ibanez Acoustic](collections/ibanez-acoustic.md)
-- [Lindo Koya (Japanese Art Finish)](collections/lindo-koya.md)
+- [Ibanez semi-acoustic](collections/ibanez-acoustic.md)
+- [Lindo Koya](collections/lindo-koya.md)
+- [Amps](collections/amps.md)
+- [Pedalboards](collections/pedalboards.md)
+- [Accessories](collections/accessories.md)
+- [Wishlist](collections/wishlist.md)
+- [Songs and tabs](collections/songs.md)
+- [Blog drafts](blog/README.md)
 
-_(More to come? Maybe a Furch, Martin, or another Les Paul… Stay tuned!)_
+## Featured Project
 
----
+[Gibson Custom Shop ES-335 (2024 Lefty, Cinnamon Burst)](collections/gibson-es335.md)
 
-## 👈 Lefty Life
+This is currently the main focus: specs, story, history, and photos will grow over time.
 
-Yep, I’m left-handed. Tried to play righty, but it just never clicked. Switching to a left-handed guitar made all the difference and helped me learn much faster. If you’re a lefty struggling with guitar, trust me—you’re not alone!
+## Lefty Life
 
+Yep, I am left-handed. I tried to play right-handed, but it never clicked. Switching to a left-handed guitar made all the difference and helped me learn much faster. If you are a lefty struggling with guitar, you are not alone.
 
----
+## Photos
 
-## 📷 Photos
+Each guitar can have its own folder in `photos/`, named after the guitar model or stable slug.
 
-Each guitar has its own folder in `/photos/`, named after the guitar’s model (e.g., `/photos/gibson-es335/`).  
-Each collection file contains a "Photos" section showing and linking to its images.
+Example:
 
-**Temporary folder structure:**
-I am still thinking about adding photos, might remove this later
-```
+```text
 photos/
   gibson-es335/
     front.jpg
@@ -51,45 +45,30 @@ photos/
   ibanez-acoustic/
   lindo-koya/
 ```
----
 
-## 📝 Wishlist
+Only public-safe photos should go into tracked folders. Private source material, receipts, emails, raw downloads, bookmarks, serial-sensitive notes, and todos belong in `resources/`, which is ignored by Git.
 
-Guitars I’m hoping to add someday:
-- Furch acoustic
-- Martin acoustic
-- Gibson Les Paul Custom
+## Local Private Resources
 
----
+The `resources/` folder is intentionally local-only. It is for:
 
-## 💔 Guitars Broken
+- private notes
+- todo files
+- insurance tracking
+- local copies of emails
+- links, bookmarks, and downloads
+- draft buy links and raw research
 
-Guitars that sadly broke, got damaged, or became unplayable:
-- Stratocaster (travel accident)
-- Some Acoustic one (caused by cat)
-I kept them around for years, eventually decided to throw them out. Life lesson learned: Never listen to others, always keep your guitars.
+This keeps the public site clean while still letting the project collect everything needed to build accurate pages later.
 
----
+## Future Site
 
-## 💸 Guitars Sold
+This may become a GitHub Pages site at a domain such as `guitars.mrfloris.com`, possibly using Starlight with a suitable theme. For now, the Markdown structure is kept simple so it can migrate cleanly.
 
-Guitars that were once in my collection but have moved on and I highly regret. Life lesson learned: Never listen to others, always keep your guitars
-- Telecaster (needed the money)
-- Gibson Les Paul ("cheap" one, during marriage)
+## Contributing And Feedback
 
----
+If you spot mistakes, have suggestions, or want to chat about guitars, feel free to open an issue or pull request. I am happy to connect with other guitar fans, especially lefties.
 
-## 🤝 Contributing & Feedback
+## Version
 
-If you spot any mistakes, have suggestions, or just want to chat about guitars, feel free to open an issue or pull request. I’m always open to feedback and happy to connect with other guitar fans, especially lefties!
-
----
-
-## 📅 Version
-
-**Current version:** 0.0.3 (Build 004, June 19th, 2025)
-
----
-
-Thanks for stopping by!  
-— Floris
+Current version: 0.1.0 (Build 005, June 26th, 2026)
