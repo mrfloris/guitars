@@ -4,6 +4,12 @@ Welcome to Floris' guitar and gear archive. This is a personal collection projec
 
 Guitars are more than wood and strings: they have stories, and they are personal. This repo preserves the details and history of the instruments I own, used to own, borrowed, built, repaired, or still want to find someday. It is also a place to nerd out about specs, terminology, and left-handed guitar life.
 
+## Public Site
+
+The public Starlight site is available at [https://guitars.mrfloris.com/](https://guitars.mrfloris.com/).
+
+GitHub Pages fallback URL: `https://mrfloris.github.io/guitars/`
+
 ## Start Here
 
 - [Guitar inventory](collections/guitars.md)
@@ -61,9 +67,9 @@ The `resources/` folder is intentionally local-only. It is for:
 
 This keeps the public site clean while still letting the project collect everything needed to build accurate pages later.
 
-## Future Site
+## Site Setup
 
-This may become a GitHub Pages site at a domain such as `guitars.mrfloris.com`, possibly using Starlight with a suitable theme. For now, the Markdown structure is kept simple so it can migrate cleanly.
+The public site is built with Starlight from `starlight-pages/` and deployed to GitHub Pages using GitHub Actions.
 
 ## Contributing And Feedback
 
