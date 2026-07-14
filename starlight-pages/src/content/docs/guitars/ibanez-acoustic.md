@@ -1,22 +1,28 @@
 ---
 title: Ibanez Semi-Acoustic
-description: Notes for the Ibanez semi-acoustic with cutaway.
+description: A frequently played left-handed Ibanez acoustic-electric with a cutaway.
 ---
 
-# Ibanez Guitars
+Seeing a right-handed acoustic in the family started the question: “Wait, do they make a left-handed one?” Within a week I had tried this Ibanez and bought it. It became one of the guitars I reach for most often.
 
-My niece showed me a right-handed acoustic. I said: Wait, they have a left-handed one? And within a week I played it and bought it. It's my daily driver.
+## At A Glance
 
-## Ibanez Acoustic
+| Detail | What is known |
+| --- | --- |
+| Brand | Ibanez |
+| Type | Acoustic-electric / semi-acoustic |
+| Body | Cutaway |
+| Handedness | Left-handed |
+| Character | Balanced, comfortable at softer playing levels |
+| Status | Owned; frequent daily player |
 
-Semi-acoustic, with cut-away. It's pretty great. It has a balanced tone that lets me play soft on this type of string, and I love holding it and playing on it to learn new songs while watching tv :D
+## Why It Gets Played
 
-## Overview
+It has a balanced tone that works well when playing softly. It is comfortable to hold, easy to pick up for learning songs, and just as happy accompanying an evening on the sofa as it is being treated as a “proper” practice instrument.
 
-## Specifications
+## Still To Document
 
-## Story / History
-
-## Photos
-
-## Notes
+- Exact model and production year.
+- Tonewoods, neck dimensions, pickup/preamp, and hardware.
+- String type and preferred setup.
+- A personal photo set and fuller purchase story.

@@ -1,80 +1,65 @@
-# Guitars And Gear
+# Floris' Guitars & Gear
 
-Welcome to Floris' guitar and gear archive. This is a personal collection project for guitar stories, specs, history, photos, amps, pedalboard plans, accessories, songs, wishlist notes, and eventually blog posts.
+A personal, left-handed guitar and gear archive for instrument stories, confirmed specifications, amps, pedalboard plans, accessories, songs, wishlists, and future journal posts.
 
-Guitars are more than wood and strings: they have stories, and they are personal. This repo preserves the details and history of the instruments I own, used to own, borrowed, built, repaired, or still want to find someday. It is also a place to nerd out about specs, terminology, and left-handed guitar life.
+Guitars are more than wood and strings. This project preserves why each instrument matters, what is known about it, and which details still need to be researched.
 
 ## Public Site
 
-The public Starlight site is available at [https://guitars.mrfloris.com/](https://guitars.mrfloris.com/).
+- [guitars.mrfloris.com](https://guitars.mrfloris.com/)
+- [GitHub Pages project URL](https://mrfloris.github.io/guitars/)
 
-GitHub Pages fallback URL: `https://mrfloris.github.io/guitars/`
+## Browse The Archive
 
-## Start Here
+- [Guitar collection](https://guitars.mrfloris.com/guitars/)
+- [Gibson Custom Shop '64 ES-335](https://guitars.mrfloris.com/guitars/gibson-es335/)
+- [Gibson Custom SJ-200 Western Classic](https://guitars.mrfloris.com/guitars/gibson-sj200/)
+- [Gibson Custom 1960 Les Paul Standard Reissue](https://guitars.mrfloris.com/guitars/gibson-les-paul-1960/)
+- [Amps](https://guitars.mrfloris.com/gear/amps/)
+- [Pedalboard project](https://guitars.mrfloris.com/gear/pedalboards/)
+- [Accessories and storage](https://guitars.mrfloris.com/gear/accessories/)
+- [Wishlist and research](https://guitars.mrfloris.com/wishlist/)
+- [Songs and tabs](https://guitars.mrfloris.com/music/songs/)
+- [Journal](https://guitars.mrfloris.com/blog/)
 
-- [Guitar inventory](collections/guitars.md)
-- [Gibson Custom Shop ES-335](collections/gibson-es335.md)
-- [Epiphone Les Paul](collections/epiphone-lespaul.md)
-- [Ibanez semi-acoustic](collections/ibanez-acoustic.md)
-- [Lindo Koya](collections/lindo-koya.md)
-- [Amps](collections/amps.md)
-- [Pedalboards](collections/pedalboards.md)
-- [Accessories](collections/accessories.md)
-- [Wishlist](collections/wishlist.md)
-- [Songs and tabs](collections/songs.md)
-- [Blog drafts](blog/README.md)
-
-## Featured Project
-
-[Gibson Custom Shop ES-335 (2024 Lefty, Cinnamon Burst)](collections/gibson-es335.md)
-
-This is currently the main focus: specs, story, history, and photos will grow over time.
-
-## Lefty Life
-
-Yep, I am left-handed. I tried to play right-handed, but it never clicked. Switching to a left-handed guitar made all the difference and helped me learn much faster. If you are a lefty struggling with guitar, you are not alone.
-
-## Photos
-
-Each guitar can have its own folder in `photos/`, named after the guitar model or stable slug.
-
-Example:
+## Repository Layout
 
 ```text
-photos/
-  gibson-es335/
-    front.jpg
-    back.jpg
-    headstock.jpg
-    serial.jpg
-  epiphone-lespaul/
-  ibanez-acoustic/
-  lindo-koya/
+starlight-pages/
+  src/content/docs/   Canonical public pages
+  src/styles/         Site theme and interaction styles
+  public/             CNAME and static public files
+resources/            Ignored private research, todos, email notes, and archives
+PUBLICATION_POLICY.md Rules for moving information into the public site
+.github/workflows/    GitHub Pages deployment
 ```
 
-Only public-safe photos should go into tracked folders. Private source material, receipts, emails, raw downloads, bookmarks, serial-sensitive notes, and todos belong in `resources/`, which is ignored by Git.
+The older root-level collection documents have been consolidated into the Starlight content tree so the public archive has one source of truth.
 
-## Local Private Resources
+## Local Development
 
-The `resources/` folder is intentionally local-only. It is for:
+Run these commands from `starlight-pages/`:
 
-- private notes
-- todo files
-- insurance tracking
-- local copies of emails
-- links, bookmarks, and downloads
-- draft buy links and raw research
+```sh
+npm ci
+npm run dev
+npm run build
+```
 
-This keeps the public site clean while still letting the project collect everything needed to build accurate pages later.
+The development server uses [http://localhost:4321/](http://localhost:4321/) by default. Production output is written to the ignored `starlight-pages/dist/` directory.
 
-## Site Setup
+## Publishing
 
-The public site is built with Starlight from `starlight-pages/` and deployed to GitHub Pages using GitHub Actions.
+Pushing `main` triggers the GitHub Pages workflow in `.github/workflows/deploy.yml`. Astro builds the Starlight project, GitHub Pages publishes it, and `starlight-pages/public/CNAME` keeps the custom domain attached.
+
+## Privacy Boundary
+
+The `resources/` directory is intentionally ignored in its entirety. It contains private source material such as receipts, correspondence, serial numbers, contact details, insurance notes, archived dealer material, raw research, and todos.
+
+Only curated summaries belong in the public Starlight pages. Exact rules are documented in [PUBLICATION_POLICY.md](PUBLICATION_POLICY.md).
+
+Public photos belong under `starlight-pages/src/assets/` only after serial numbers, labels, addresses, reflections, location clues, and reuse rights have been checked. Raw and private images remain under `resources/`.
 
 ## Contributing And Feedback
 
-If you spot mistakes, have suggestions, or want to chat about guitars, feel free to open an issue or pull request. I am happy to connect with other guitar fans, especially lefties.
-
-## Version
-
-Current version: 0.1.0 (Build 005, June 26th, 2026)
+Corrections and guitar conversation are welcome through GitHub issues or pull requests, especially from other left-handed players.

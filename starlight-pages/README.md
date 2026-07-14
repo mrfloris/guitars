@@ -1,49 +1,40 @@
-# Starlight Starter Kit: Basics
+# Starlight Public Site
 
-[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
+This directory contains the canonical public site for [guitars.mrfloris.com](https://guitars.mrfloris.com/). It uses [Astro](https://astro.build/) with [Starlight](https://starlight.astro.build/).
 
+## Commands
+
+Run from this directory:
+
+| Command | Action |
+| --- | --- |
+| `npm ci` | Install the locked dependencies |
+| `npm run dev` | Start the local site at `http://localhost:4321/` |
+| `npm run build` | Build the production site into the ignored `dist/` directory |
+| `npm run preview` | Preview the production build locally |
+| `npm run astro -- --help` | Show Astro CLI help |
+
+## Content Structure
+
+```text
+src/content/docs/
+  about/       Archive and publication approach
+  blog/        Journal index and future posts
+  gear/        Amps, pedalboards, accessories, and storage
+  guitars/     Collection overview and individual guitar pages
+  music/       Songs, tabs, and practice notes
+  index.mdx    Homepage
+  wishlist.md  Public research and future ideas
 ```
-npm create astro@latest -- --template starlight
-```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+`astro.config.mjs` owns the navigation, site metadata, and custom domain. `src/styles/custom.css` contains the restrained visual theme and interactive card states.
 
-## 🚀 Project Structure
+## Private Source Material
 
-Inside of your Astro + Starlight project, you'll see the following folders and files:
+Never copy the repository's ignored `resources/` directory wholesale into this site. It may contain serial numbers, invoices, exact prices, contact details, correspondence, insurance records, private photos, and unfinished research.
 
-```
-.
-├── public/
-├── src/
-│   ├── assets/
-│   ├── content/
-│   │   └── docs/
-│   └── content.config.ts
-├── astro.config.mjs
-├── package.json
-└── tsconfig.json
-```
+Use the repository-level `PUBLICATION_POLICY.md` before promoting facts or images into a public page.
 
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
+## Deployment
 
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
-
-Static assets, like favicons, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+A push to `main` runs the GitHub Pages workflow from the repository root. `public/CNAME` declares `guitars.mrfloris.com` as the custom domain.

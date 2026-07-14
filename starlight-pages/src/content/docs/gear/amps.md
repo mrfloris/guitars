@@ -1,31 +1,41 @@
 ---
 title: Amps
-description: Marshall and Fender amp notes, maintenance needs, and fact checks.
+description: Current, borrowed, and former guitar amps, with maintenance notes and clearly labelled identification work.
 ---
 
-# Amps
+The amp archive begins with memories and working notes. Exact badge photos and rear-panel details still need to be collected, so recalled wattages are labelled instead of quietly becoming “facts.”
 
-This page collects current amps, borrowed amps, previous amps, maintenance notes, and research todos. The private working todos live under `resources/todo/amps.md` and are not uploaded to GitHub.
+## Current Daily Driver
 
-## Currently Owned
+### Marshall Small Combo
 
-### Marshall "Small" 25 Watt Amp
+| Detail | Current record |
+| --- | --- |
+| Brand | Marshall |
+| Model | Identification pending |
+| Remembered power | Approximately 25 watts; unconfirmed |
+| Status | Owned; daily driver |
+| Maintenance | Crackly controls or signal; reverb behaving unpredictably |
 
-Daily driver. It is mine and gets regular use, but it needs maintenance: it is crackly and the reverb is acting strange.
+This is the small Marshall I use most. It still works as the everyday amp, but it needs a careful service before the crackle and unusual reverb turn into larger problems.
 
-## Borrowed
+:::caution[Maintenance note]
+The symptoms are recorded here, but the cause is not diagnosed. Cleaning products, valve work, and any work around mains voltage should wait for the exact model and a safe repair plan.
+:::
 
-### Fender Reverb Deluxe Amp
+## On Loan
 
-Borrowed from my neighbour. It has some quirks that need to be reviewed to make it work properly.
+### Fender Deluxe Reverb, Exact Version To Confirm
+
+The Fender is on loan and has a few quirks that need to be reproduced and documented. The front badge, rear panel, wattage, speaker, and exact model generation still need checking before this becomes a specification page.
 
 ## Previously Owned
 
-- Marshall "Park" 12 Watt amp, mono
-- Marshall "Valvestate" 8280 80 Watt amp, stereo
+| Amp | Remembered detail | Confidence |
+| --- | --- | --- |
+| Marshall Park combo | Approximately 12 watts, mono | Wattage needs confirmation |
+| Marshall Valvestate 8280 | Remembered as an 80-watt stereo combo | Model name is strong; power description still to verify |
 
-## Fact Checks
+## Next Amp Research
 
-- Confirm the exact wattage and model details for the Marshall "Small" amp.
-- Confirm the wattage for the Marshall "Park" amp.
-- Confirm the exact model name, wattage, and details for the borrowed Fender amp.
+The [Circa '74 AV150-10 in mahogany](https://www.tfoa.eu/products/circa-74-av150-10-amp-mahogany) is a possible future amp. It needs to be compared with repairing the Marshall, using the borrowed Fender, and choosing a headphone or studio-monitor setup. It is research, not a purchase decision yet.

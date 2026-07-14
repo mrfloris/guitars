@@ -1,40 +1,53 @@
 ---
-title: Guitars And Gear
-description: Floris guitar collection, gear archive, pedalboard plans, songs, and stories.
+title: Floris' Guitars & Gear
+description: A left-handed guitar collection, gear archive, project notebook, and story collection.
 template: splash
 hero:
-  tagline: A public archive for guitars, amps, pedalboard plans, accessories, songs, and the stories behind the gear.
+  tagline: A left-handed collection journal about the guitars, the gear around them, and the stories that make each one worth remembering.
   actions:
-    - text: Guitar Inventory
+    - text: Explore the collection
       link: /guitars/
       icon: right-arrow
-    - text: Amps
-      link: /gear/amps/
+    - text: Read the ES-335 story
+      link: /guitars/gibson-es335/
       icon: seti:audio
       variant: minimal
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Start Here
+## More Than An Inventory
+
+Some guitars arrive as long-held dreams. Others are inexpensive, borrowed, rescued, rebuilt, or simply impossible to forget. This archive keeps their specifications and histories together, alongside amps, future pedalboards, practice notes, and the projects still taking shape.
 
 <CardGrid stagger>
-	<Card title="Guitars" icon="seti:audio">
-		The owned, borrowed, former, and wanted guitars, with individual story pages as they grow.
+	<Card title={'<a class="home-card-link" href="/guitars/">The guitar collection</a>'} icon="seti:audio">
+		Owned, former, borrowed, and future instruments.
 	</Card>
-	<Card title="Amps" icon="seti:config">
-		Marshall and Fender amp notes, maintenance needs, and fact checks.
+	<Card title={'<a class="home-card-link" href="/guitars/#gibson-custom-shop">Three Custom Shop Gibsons</a>'} icon="seti:favicon">
+		A Made 2 Measure ES-335, an SJ-200 Western Classic, and a 1960 Les Paul Standard Reissue.
 	</Card>
-	<Card title="Pedalboards" icon="seti:folder">
-		A fresh build project for pedals, board hardware, links, research, and experiments.
+	<Card title={'<a class="home-card-link" href="/gear/amps/">Amps and maintenance</a>'} icon="seti:config">
+		Marshall memories, a borrowed Fender, current quirks, and the search for the next daily driver.
 	</Card>
-	<Card title="Songs" icon="seti:markdown">
-		A future list of songs, tabs, video lessons, tunings, capo notes, and practice status.
+	<Card title={'<a class="home-card-link" href="/gear/pedalboards/">Pedalboard from zero</a>'} icon="seti:folder">
+		No finished board yet: just research, signal-chain questions, and a plan to build it properly.
 	</Card>
-	<Card title="Wishlist" icon="seti:favicon">
-		Gear to research before buying, including the Furch guitar and future pedalboard parts.
+	<Card title={'<a class="home-card-link" href="/music/songs/">Songs and practice</a>'} icon="seti:markdown">
+		A growing place for songs, tabs, tunings, capo positions, lessons, and practice notes.
 	</Card>
-	<Card title="Blog" icon="seti:astro">
-		Future stories, build logs, guitar history, left-handed playing notes, and repair adventures.
+	<Card title={'<a class="home-card-link" href="/blog/">Journal</a>'} icon="seti:astro">
+		Future stories about left-handed playing, repairs, guitar history, storage, and the process behind each build.
 	</Card>
 </CardGrid>
+
+## Currently In Focus
+
+- Documenting the factory-confirmed details of the 2024 [Gibson Custom Shop '64 ES-335](/guitars/gibson-es335/).
+- Preserving the story and purchase-time upgrades of the [2023 Gibson SJ-200 Western Classic](/guitars/gibson-sj200/).
+- Planning a first pedalboard that can grow without becoming noisy or awkward.
+- Identifying older instruments and checking remembered amp model names and wattages.
+
+:::note[Curated for public viewing]
+The working archive also contains receipts, correspondence, serial numbers, insurance records, and raw research. Those remain private. This site publishes the useful story and specification layer only.
+:::

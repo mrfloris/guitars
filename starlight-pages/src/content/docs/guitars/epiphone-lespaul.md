@@ -1,22 +1,30 @@
 ---
 title: Epiphone Les Paul
-description: Notes and story for the Epiphone Les Paul.
+description: The long-running story of a cherry sunburst Epiphone Les Paul from Floris' early playing years.
 ---
 
-# Epiphone Guitars
+This cherry sunburst Epiphone Les Paul has been around since my early teens. It was one of the first guitars that taught me how easy it is to disappear into playing and spend time in a world of your own.
 
-I have had an Epiphones as my third guitar I think, a Les Paul. I got it from the insurance money that paid for someone breaking my stratocaster. I was around 13 or 15. 
+## At A Glance
 
-## Epiphone Les Paul (standard)
+| Detail | What is known |
+| --- | --- |
+| Brand | Epiphone |
+| Family | Les Paul, likely Standard |
+| Finish | Cherry sunburst |
+| Handedness | Left-handed |
+| Era | With me since my early teens |
+| Status | Owned; long-term player |
 
-I've played on this so so so much, it showed me what 'being in your own little world' means. 
+## The Story
 
-## Overview
+This guitar followed the loss of an earlier Stratocaster-style guitar. I played the Epiphone constantly. More than any specification, that is its importance: it showed me what “being in your own little world” with a guitar could mean.
 
-## Specifications
+The exact model variant, production year, serial-safe factory details, pickups, and hardware still need to be checked directly on the instrument. Until then, this page keeps memory and confirmed detail separate.
 
-## Story / History
+## Still To Document
 
-## Photos
-
-## Notes
+- Full model name and production year.
+- Body, neck, fingerboard, pickup, and hardware specifications.
+- Setup and repair history.
+- A public-safe photo set.
