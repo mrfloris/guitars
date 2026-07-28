@@ -2,6 +2,8 @@
 
 This directory contains the canonical public site for [guitars.mrfloris.com](https://guitars.mrfloris.com/). It uses [Astro](https://astro.build/) with [Starlight](https://starlight.astro.build/).
 
+Use Node.js 22.12 or newer.
+
 ## Commands
 
 Run from this directory:
@@ -9,8 +11,9 @@ Run from this directory:
 | Command | Action |
 | --- | --- |
 | `npm ci` | Install the locked dependencies |
+| `npm run check:docs` | Validate public routes, navigation, page titles, README links, and the custom domain |
 | `npm run dev` | Start the local site at `http://localhost:4321/` |
-| `npm run build` | Build the production site into the ignored `dist/` directory |
+| `npm run build` | Validate the documentation and build the production site into the ignored `dist/` directory |
 | `npm run preview` | Preview the production build locally |
 | `npm run astro -- --help` | Show Astro CLI help |
 

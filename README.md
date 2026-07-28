@@ -1,6 +1,6 @@
 # Floris' Guitars & Gear
 
-A personal, left-handed guitar and gear archive for instrument stories, confirmed specifications, amps, pedalboard plans, accessories, songs, wishlists, and future journal posts.
+A personal instrument and gear archive centered on left-handed guitars, with stories, confirmed specifications, amps, pedalboard plans, accessories, songs, wishlists, and future journal posts.
 
 Guitars are more than wood and strings. This project preserves why each instrument matters, what is known about it, and which details still need to be researched.
 
@@ -38,15 +38,16 @@ The older root-level collection documents have been consolidated into the Starli
 
 ## Local Development
 
-Run these commands from `starlight-pages/`:
+Use Node.js 22.12 or newer, then run these commands from `starlight-pages/`:
 
 ```sh
 npm ci
+npm run check:docs
 npm run dev
 npm run build
 ```
 
-The development server uses [http://localhost:4321/](http://localhost:4321/) by default. Production output is written to the ignored `starlight-pages/dist/` directory.
+The documentation check validates public routes, sidebar links, README links, page titles, and the custom domain. It also runs automatically before every production build. The development server uses [http://localhost:4321/](http://localhost:4321/) by default. Production output is written to the ignored `starlight-pages/dist/` directory.
 
 ## Publishing
 
