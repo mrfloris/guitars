@@ -28,6 +28,7 @@ export default defineConfig({
 						{ label: 'Epiphone Les Paul', slug: 'guitars/epiphone-lespaul' },
 						{ label: 'Ibanez Semi-Acoustic', slug: 'guitars/ibanez-acoustic' },
 						{ label: 'Lindo Koya', slug: 'guitars/lindo-koya' },
+						{ label: 'Inherited Sitar', slug: 'guitars/sitar' },
 					],
 				},
 				{
